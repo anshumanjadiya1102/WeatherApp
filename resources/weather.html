@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <style>
+        body { font-family: Arial; background-color: #eef; text-align: center; padding: 50px; }
+        #weather { font-size: 24px; margin-top: 20px; }
+        input, button { padding: 10px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <input type="text" id="city" placeholder="Enter city" />
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="weather"></div>
+
+    <script>
+        function getWeather() {
+            let city = document.getElementById('city').value;
+            if (!city) return;
+            javaConnector.getWeather(city);
+        }
+
+        function updateWeather(text) {
+            document.getElementById('weather').innerText = text;
+        }
+    </script>
+</body>
+</html>

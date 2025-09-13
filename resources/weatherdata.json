@@ -1,0 +1,10 @@
+{
+  "London": { "temp": 18, "description": "Cloudy" },
+  "New York": { "temp": 25, "description": "Sunny" },
+  "Tokyo": { "temp": 20, "description": "Rainy" },
+  "Paris": { "temp": 22, "description": "Sunny" },
+  "Sydney": { "temp": 15, "description": "Windy" },
+  "Mumbai": { "temp": 30, "description": "Humid" },
+  "Cairo": { "temp": 28, "description": "Sunny" },
+  "Moscow": { "temp": 10, "description": "Snowy" }
+}
